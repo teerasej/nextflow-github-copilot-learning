@@ -1,0 +1,29 @@
+
+# Github Copilot with Spring Boot
+
+0. [Setup Github Copilot](../setup/setup.md)
+1. Prepare Spring Boot Project by cloning the repository: https://github.com/teerasej/nextflow-spring-boot-test/
+
+## Triggering Github Copilot
+
+1. [Inline Suggestion](contents/inline-suggestion.md)
+2. [Explain the code with Command Palette](contents/explain-code.md)
+3. [Comment to code](contents/comment-to-code.md)
+
+## Github copilot chat
+
+1. [Chat with Copilot (Create the new controller)](contents/chat-with-copilot-new-code.md)
+
+## Documenting Your Code
+
+1. [Documenting Your Code](contents/documenting-your-code.md)
+
+## Generate Testing 
+
+1. [Create a class from empty file](contents/create-class-from-empty-file.md)
+2. [Generate Unit test for the class](contents/generate-unit-test.md)
+3. [Generate Integration test for the class](contents/generate-integration-test.md)
+
+## Challenge 
+
+1. [Challenge: Service and Mocking](contents/challenge-service-and-mocking.md)
