@@ -24,6 +24,8 @@
 2. [Generate Unit test for the class](contents/generate-unit-test.md)
 3. [Generate Integration test for the class](contents/generate-integration-test.md)
 
+
 ## Challenge 
 
-1. [Challenge: Service and Mocking](contents/challenge-service-and-mocking.md)
+1. [Challenge 1: Service and Mocking](contents/challenge-service-and-mocking.md)
+2. **Challenge 2: Github Action Workflow:** try to create a `.yml` file for Github Action to build the project and run the test when push code to main branch in github repository.
