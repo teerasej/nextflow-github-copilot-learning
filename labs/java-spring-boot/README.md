@@ -12,7 +12,7 @@
 
 ## Github copilot chat
 
-1. [Chat with Copilot (Create the new controller)](contents/chat-with-copilot-new-code.md)
+1. [Chat with Copilot (Create the new controller)](contents/chat-with-copilot.md)
 
 ## Documenting Your Code
 
