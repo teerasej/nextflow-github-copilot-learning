@@ -1,8 +1,7 @@
 # GitHub Copilot with .NET
 
 - Repository for this project: https://github.com/teerasej/azure-dotnet-imgweb-repo
-- github copilot workspace: https://copilot-workspace.githubnext.com/
-- sign up for waiting list: https://github.com/github-copilot/workspace_waitlist_signup/join
+
 - ApiUrl
 ```
 https://imgapi-nextflow-eyh5a5fmgmavd9as.eastus-01.azurewebsites.net/
@@ -31,3 +30,8 @@ https://imgapi-nextflow-eyh5a5fmgmavd9as.eastus-01.azurewebsites.net/
 > **Note:** Before you start following the steps, make sure you create a new branch **v2**, then commit all changes to it.
 
 1. [Create an event registration page](github-copilot-contents/event-registration.md)
+
+## Github Copilot Workspaces
+
+- [Github copilot workspace](https://copilot-workspace.githubnext.com/)
+- [Sign up for waiting list](https://github.com/github-copilot/workspace_waitlist_signup/join)
