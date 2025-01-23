@@ -1,6 +1,7 @@
 
 # Github Copilot - Learning
 
+- [Next.js project for codespaces](https://github.com/nextflow-git-school/nextjs-blog/)
 - [.NET](./labs//dotnet/1-github-copilot.md)
 - [Spring Boot](labs/java-spring-boot/README.md)
 
