@@ -1,6 +1,11 @@
 
-# Github Copilot - Learning
+# Github Copilot - Learning Concept
 
+- 👉 [Github Copilot Core Functional](labs/concept/README.md)
+
+## Try these repo!
+
+- [Next.js project for codespaces](https://github.com/nextflow-git-school/nextjs-blog/)
 - [.NET](./labs//dotnet/1-github-copilot.md)
 - [Spring Boot](labs/java-spring-boot/README.md)
 
