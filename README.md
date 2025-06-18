@@ -1,5 +1,5 @@
 
-# Github Copilot - Learning Concept
+# Github Copilot - Learning Concept!
 
 - 👉 [Github Copilot Core Functional](labs/concept/README.md)
 
