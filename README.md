@@ -2,6 +2,7 @@
 # Github Copilot - Learning Concept
 
 - 👉 [Github Copilot Core Functional](labs/concept/README.md)
+- Try to follow practice
 
 ## Try these repo!
 
