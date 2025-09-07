@@ -8,6 +8,7 @@
 - [Next.js project for codespaces](https://github.com/nextflow-git-school/nextjs-blog/)
 - [.NET](./labs//dotnet/1-github-copilot.md)
 - [Spring Boot](labs/java-spring-boot/README.md)
+- [React TypeScript](labs/react-typescript/README.md)
 
 ## Reference
 
