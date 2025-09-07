@@ -270,8 +270,8 @@ describe('usePhotoGallery', () => {
 ```json
 {
   "scripts": {
-    "test": "react-scripts test",
-    "test:coverage": "react-scripts test --coverage --watchAll=false"
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
   }
 }
 ```

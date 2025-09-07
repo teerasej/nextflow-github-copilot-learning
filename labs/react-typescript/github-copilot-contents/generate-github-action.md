@@ -383,14 +383,14 @@ jobs:
 ```json
 {
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "test": "vitest",
     "test:all": "npm run test:unit && npm run test:integration",
-    "test:unit": "react-scripts test --coverage --watchAll=false",
-    "test:integration": "react-scripts test --testPathPattern=integration",
+    "test:unit": "vitest run --coverage",
+    "test:integration": "vitest run --testPathPattern=integration",
     "test:e2e": "playwright test",
-    "eject": "react-scripts eject",
+    "preview": "vite preview",
     "lint": "eslint src/**/*.{ts,tsx} --max-warnings 0",
     "lint:fix": "eslint src/**/*.{ts,tsx} --fix",
     "format": "prettier --write src/**/*.{ts,tsx,css,md}",
@@ -448,8 +448,8 @@ jobs:
 module.exports = {
   ci: {
     collect: {
-      url: ['http://localhost:3000'],
-      startServerCommand: 'npm start',
+      url: ['http://localhost:5173'],
+      startServerCommand: 'npm run dev',
       startServerReadyPattern: 'Local:',
       startServerReadyTimeout: 30000,
     },

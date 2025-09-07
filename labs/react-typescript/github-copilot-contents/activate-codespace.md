@@ -30,12 +30,13 @@
 
 5. **Install Project Dependencies**
    ```bash
+   cd photo-gallery
    npm install
    ```
 
 6. **Start Development Server**
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Alternative: Local Development
@@ -45,8 +46,9 @@ If you prefer to work locally:
 1. Clone the forked repository
 2. Install Node.js 18+ from [nodejs.org](https://nodejs.org)
 3. Install VS Code with GitHub Copilot extension
-4. Run `npm install` in the project directory
-5. Run `npm start` to start the development server
+4. Navigate to the photo-gallery directory: `cd photo-gallery`
+5. Run `npm install` in the project directory
+6. Run `npm run dev` to start the development server
 
 ## Next Steps
 

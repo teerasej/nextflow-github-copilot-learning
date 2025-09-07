@@ -319,10 +319,10 @@ A modern, responsive photo gallery application built with React, TypeScript, and
 
 3. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
 
 ## 📁 Project Structure
 
@@ -345,9 +345,10 @@ src/
 
 ## 🛠️ Available Scripts
 
-- `npm start` - Start development server
+- `npm run dev` - Start development server
 - `npm test` - Run test suite
 - `npm run build` - Build for production
+- `npm run preview` - Preview production build
 - `npm run test:coverage` - Run tests with coverage report
 
 ## 📚 API Documentation

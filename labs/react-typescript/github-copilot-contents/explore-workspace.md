@@ -7,8 +7,7 @@ Let's familiarize ourselves with the React TypeScript project structure:
 ```
 photo-gallery/
 ├── public/
-│   ├── index.html
-│   └── favicon.ico
+│   └── vite.svg
 ├── src/
 │   ├── components/         # Reusable React components
 │   ├── pages/             # Page components
@@ -16,12 +15,18 @@ photo-gallery/
 │   ├── services/          # API services and utilities
 │   ├── types/             # TypeScript type definitions
 │   ├── utils/             # Utility functions
+│   ├── assets/            # Static assets (images, icons, etc.)
 │   ├── App.tsx            # Main app component
-│   ├── App.css            # Global styles
-│   ├── index.tsx          # App entry point
-│   └── index.css          # Base styles
+│   ├── App.css            # App-specific styles
+│   ├── main.tsx           # App entry point (Vite)
+│   ├── index.css          # Global styles
+│   └── vite-env.d.ts      # Vite environment types
+├── index.html             # HTML template (Vite)
 ├── package.json           # Dependencies and scripts
 ├── tsconfig.json         # TypeScript configuration
+├── tsconfig.app.json     # App-specific TypeScript config
+├── tsconfig.node.json    # Node-specific TypeScript config
+├── vite.config.ts        # Vite configuration
 └── README.md             # Project documentation
 ```
 
@@ -30,16 +35,20 @@ photo-gallery/
 ### 1. `src/App.tsx`
 The main application component where routing and global state management happens.
 
-### 2. `src/index.tsx`
-The entry point of the React application where the app is rendered to the DOM.
+### 2. `src/main.tsx`
+The entry point of the React application where the app is rendered to the DOM (Vite uses `main.tsx` instead of `index.tsx`).
 
 ### 3. `package.json`
 Contains project dependencies, scripts, and metadata. Key scripts include:
-- `npm start` - Start development server
+- `npm run dev` - Start development server (Vite)
 - `npm test` - Run tests
 - `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
 
-### 4. `tsconfig.json`
+### 4. `vite.config.ts`
+Vite configuration file that defines build settings, plugins, and development server options.
+
+### 5. `tsconfig.json`
 TypeScript configuration file that defines compilation options and project structure.
 
 ## Exploring with VS Code
@@ -61,13 +70,13 @@ Look for these indicators that Copilot is active:
 Start the development server to see your application:
 
 ```bash
-npm start
+npm run dev
 ```
 
 This will:
-- Start the React development server
-- Open your browser to `http://localhost:3000`
-- Enable hot reloading for instant updates
+- Start the Vite development server
+- Open your browser to `http://localhost:5173` (Vite's default port)
+- Enable hot module replacement (HMR) for instant updates
 
 ## Next Steps
 

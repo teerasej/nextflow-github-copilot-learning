@@ -10,10 +10,23 @@ This tutorial demonstrates GitHub Copilot features using a React TypeScript proj
 
 ## Project Setup
 
-Create a new React TypeScript project:
+### Option 1: Use the Provided Starter Project (Recommended)
+
+Navigate to the starter project directory:
 ```bash
-npx create-react-app photo-gallery --template typescript
 cd photo-gallery
+npm install
+npm run dev
+```
+
+### Option 2: Create a New Project from Scratch
+
+Create a new React TypeScript project using Vite:
+```bash
+npm create vite@latest photo-gallery -- --template react-ts
+cd photo-gallery
+npm install
+npm run dev
 ```
 
 ## Tutorial Structure
