@@ -7,7 +7,9 @@ Build a basic single page application (SPA) using your preferred frontend framew
 ## Steps
 
 ### 1. Set Up the Project
-1. Initialize a new project directory
+1. Initialize a new project directory or fork this [repo](https://github.com/teerasej/nextflow-website-github-instruction) https://github.com/teerasej/nextflow-website-github-instruction
+2. Create the codespace to work on this repo
+
 
 ### 2. Configure GitHub Copilot Custom Instructions
 1. Open your IDE.
