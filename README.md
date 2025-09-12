@@ -8,8 +8,11 @@
 ## Try these repo!
 
 A. [.NET](./labs//dotnet/1-github-copilot.md)
+
 B. [Next.js project for codespaces](https://github.com/nextflow-git-school/nextjs-blog/)
+
 C. [React TypeScript](labs/react-typescript/README.md)
+
 D. [Spring Boot](labs/java-spring-boot/README.md)
 
 ## Reference
