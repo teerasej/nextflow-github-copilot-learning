@@ -28,8 +28,6 @@ https://imgapiteerasej-cahydnhwhbfsera8.southeastasia-01.azurewebsites.net
 
 ## 5. Let's talk about Agent
 
-...hear my word...
-
 ## Challenge 
 
 > **Note:** Before you start following the steps, make sure you create a new branch **v2**, then commit all changes to it.
